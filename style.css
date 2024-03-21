@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.banner {
+    background: url(./banner.jpg) center center no-repeat;
+
+}
+
+.about-signin {
+    overflow: hidden;
+}
+
+.about,
+.signin {
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 40px;
+    padding: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid green;
+}
+
+.about:hover,
+.signin:hover {
+    text-decoration: underline;
+}
+
+.about {
+    color: black;
+    border-color: #f000;
+}
+
+.signin {
+    color: green;
+    border-radius: 16px;
+    margin-left: -10px;
+    margin-right: 120px;
+}
+
+.logo {
+    background: url(./hapoERP.png) center center no-repeat;
+    height: 350px;
+}
+
+.better {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.better-img {
+    width: 52px;
+    height: 48px;
+    margin-bottom: 14px;
+}
+
+.better-text {
+    display: block;
+    font-size: 36px;
+}
+
+.banner-text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.banner-text p {
+    color: #283238;
+    font-family: Roboto;
+    font-style: italic;
+    letter-spacing: -0.02px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.banner-text button {
+    border: 1px solid black;
+    color: white;
+    background-color: green;
+    margin-top: 32px;
+    padding: 10px 22px;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-bottom: 250px;
+}
